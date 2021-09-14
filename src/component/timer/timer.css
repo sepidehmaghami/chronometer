@@ -36,14 +36,29 @@ button {
     color: #004b23;
 }
 
+.start:hover {
+    background-color: #004b23;
+    color: #fff;
+}
+
 .stop {
     border: 1px solid #ff9500;
     background-color: #ffff3f;
     color: #ff7b00;
 }
 
+.stop:hover {
+    background-color: #ff7b00;
+    color: #fff;
+}
+
 .reset {
     border: 1px solid #cb1b16;
     background-color: #f29479;
     color: #65010c;
+}
+
+.reset:hover {
+    background-color: #65010c;
+    color: #fff;
 }

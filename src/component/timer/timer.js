@@ -5,8 +5,7 @@ function Timer (){
     const [minute, setMinute] =useState('00');
     const [hour , setHour] =useState('00');
 
-    const timeStart =() =>{
-    }
+    const timeStart =() =>{}
 
     const timeStop =() =>{}
 
