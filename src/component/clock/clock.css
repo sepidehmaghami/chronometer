@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+p {
+    font-family: cursive;
+    font-weight: bold;
+    /* color: #ffb4a2; */
+    color: #ffb703;
+    font-size: 20px;
+}

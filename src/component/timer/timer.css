@@ -1,0 +1,37 @@
+.btnController {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    margin: 5px 15px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.start {
+    border: 1px solid #008000;
+    background-color: #70e000;
+    color: #004b23;
+}
+
+.stop {
+    border: 1px solid #ff9500;
+    background-color: #ffff3f;
+    color: #ff7b00;
+}
+
+.reset {
+    border: 1px solid #cb1b16;
+    background-color: #f29479;
+    color: #65010c;
+}

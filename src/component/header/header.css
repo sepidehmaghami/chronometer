@@ -1,0 +1,11 @@
+.background {
+    background-image: url(./wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 300px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
