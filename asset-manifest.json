@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/chronometer/static/css/main.7579bf9c.chunk.css",
-    "main.js": "/chronometer/static/js/main.b1dfb718.chunk.js",
-    "main.js.map": "/chronometer/static/js/main.b1dfb718.chunk.js.map",
+    "main.js": "/chronometer/static/js/main.e28f3a7a.chunk.js",
+    "main.js.map": "/chronometer/static/js/main.e28f3a7a.chunk.js.map",
     "runtime-main.js": "/chronometer/static/js/runtime-main.09a300eb.js",
     "runtime-main.js.map": "/chronometer/static/js/runtime-main.09a300eb.js.map",
-    "static/js/2.ff97b9ef.chunk.js": "/chronometer/static/js/2.ff97b9ef.chunk.js",
-    "static/js/2.ff97b9ef.chunk.js.map": "/chronometer/static/js/2.ff97b9ef.chunk.js.map",
+    "static/js/2.57541490.chunk.js": "/chronometer/static/js/2.57541490.chunk.js",
+    "static/js/2.57541490.chunk.js.map": "/chronometer/static/js/2.57541490.chunk.js.map",
     "index.html": "/chronometer/index.html",
     "static/css/main.7579bf9c.chunk.css.map": "/chronometer/static/css/main.7579bf9c.chunk.css.map",
-    "static/js/2.ff97b9ef.chunk.js.LICENSE.txt": "/chronometer/static/js/2.ff97b9ef.chunk.js.LICENSE.txt",
+    "static/js/2.57541490.chunk.js.LICENSE.txt": "/chronometer/static/js/2.57541490.chunk.js.LICENSE.txt",
     "static/media/header.css": "/chronometer/static/media/wave.34ca4138.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.09a300eb.js",
-    "static/js/2.ff97b9ef.chunk.js",
+    "static/js/2.57541490.chunk.js",
     "static/css/main.7579bf9c.chunk.css",
-    "static/js/main.b1dfb718.chunk.js"
+    "static/js/main.e28f3a7a.chunk.js"
   ]
 }
