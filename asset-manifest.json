@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/chronometer/static/css/main.679b4a8b.chunk.css",
+    "main.js": "/chronometer/static/js/main.405bf31a.chunk.js",
+    "main.js.map": "/chronometer/static/js/main.405bf31a.chunk.js.map",
+    "runtime-main.js": "/chronometer/static/js/runtime-main.27cf09ed.js",
+    "runtime-main.js.map": "/chronometer/static/js/runtime-main.27cf09ed.js.map",
+    "static/js/2.d478df60.chunk.js": "/chronometer/static/js/2.d478df60.chunk.js",
+    "static/js/2.d478df60.chunk.js.map": "/chronometer/static/js/2.d478df60.chunk.js.map",
+    "index.html": "/chronometer/index.html",
+    "static/css/main.679b4a8b.chunk.css.map": "/chronometer/static/css/main.679b4a8b.chunk.css.map",
+    "static/js/2.d478df60.chunk.js.LICENSE.txt": "/chronometer/static/js/2.d478df60.chunk.js.LICENSE.txt",
+    "static/media/header.css": "/chronometer/static/media/wave.34ca4138.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27cf09ed.js",
+    "static/js/2.d478df60.chunk.js",
+    "static/css/main.679b4a8b.chunk.css",
+    "static/js/main.405bf31a.chunk.js"
+  ]
+}
