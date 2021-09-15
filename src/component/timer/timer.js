@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React ,{ useState } from 'react';
 import './timer.css';
 function Timer (){
     const [second , setSecond] =useState('00');
