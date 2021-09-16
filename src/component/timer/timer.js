@@ -1,31 +1,40 @@
-import React ,{ useState } from 'react';
+import React from "react";
 import './timer.css';
-function Timer (){
-    const [second , setSecond] =useState('00');
-    const [minute, setMinute] =useState('00');
-    const [hour , setHour] =useState('00');
+import TimerContainer from './timercontainer';
+const Timer = () => {
+  const {
+    timer,
+    timeStart,
+    timeStope,
+    timeReset
+  } = TimerContainer(0);
 
-    const timeStart =() =>{}
-
-    const timeStop =() =>{}
-
-    const timeReset =() =>{
-        setSecond('00');
-        setMinute('00');
-        setHour('00');
-    }
-
-    return(
-        <>
+  let milisec = ("0" + Math.floor((timer / 60000) % 60)).slice(-2);
+  let second = ("0" + Math.floor((timer / 1000) % 60)).slice(-2);
+  let minute = ("0" + Math.floor((timer / 10) % 100)).slice(-2);
+  return (
+    <>
         <div className="timeController">
-            <p className="timer">{hour} : {minute} : {second} </p>
-            <div className="btnController">
-                <button className="start" onClick={timeStart}>Start</button>
-                <button className="stop" onClick={timeStop}>Stop</button>
-                <button className="reset" onClick={timeReset}>Reset</button>
-            </div>
+        <div>
+            <p className="timer">
+              <span>{milisec}:</span>
+              <span>{second}:</span>
+              <span>{minute}</span>
+            </p>
+          </div>
+          <div className="btnController">
+              <button className="start" onClick={timeStart}>
+                Start
+              </button>
+              <button className="stop" onClick={timeStope}>
+                Stop
+              </button>
+              <button className="reset" onClick={timeReset}>
+                Reset
+              </button>
+          </div>
         </div>
-        </>
+    </>
     )
 };
 
