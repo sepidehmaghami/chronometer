@@ -1,0 +1,12 @@
+{
+    "btn": {
+        "start": "Start",
+        "stop": "Stop",
+        "reset": "Reset"
+    },
+    "lang": {
+        "english": "English",
+        "persian": "Persian",
+        "language": "Select the desired language"
+    }
+}

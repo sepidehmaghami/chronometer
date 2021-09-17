@@ -1,7 +1,13 @@
 import React from "react";
 import './timer.css';
 import TimerContainer from './timercontainer';
+import { useTranslation } from 'react-i18next';
+// import i18n from "../../utilies/i18n";
+
 const Timer = () => {
+
+  const {t} = useTranslation();
+
   const {
     timer,
     timeStart,
@@ -24,13 +30,13 @@ const Timer = () => {
           </div>
           <div className="btnController">
               <button className="start" onClick={timeStart}>
-                Start
+                {t('btn.start')}
               </button>
               <button className="stop" onClick={timeStope}>
-                Stop
+                  {t('btn.stop')}
               </button>
               <button className="reset" onClick={timeReset}>
-                Reset
+                  {t('btn.reset')}
               </button>
           </div>
         </div>

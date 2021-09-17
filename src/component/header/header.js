@@ -1,6 +1,7 @@
 import React , {useState}from 'react';
 import './header.css';
 import Clock from '../clock/clock'
+import Lang from '../lang/lang';
 
 function Header (){
     let time =  new Date().toLocaleTimeString();
@@ -18,6 +19,7 @@ function Header (){
     return(
         <>
             <div className="background">
+                <Lang/>
                 <Clock time={currenttime} date={currentdate}/>
             </div>
         </>

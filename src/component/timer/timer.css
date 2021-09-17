@@ -16,7 +16,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .timer {
@@ -25,7 +25,7 @@
 }
 
 button {
-    margin: 5px 15px;
+    margin: 5px 15px !important;
     width: 100px;
     height: 40px;
     cursor: pointer;
