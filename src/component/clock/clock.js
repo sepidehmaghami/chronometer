@@ -32,7 +32,7 @@ function Clock(props) {
         <>
              <div className="container">
                     <p style={{marginBottom:'1px'}} className={isfa ? "ltr  PersianNo" : "ltr"}>{currenttime}</p>
-                    <p className={!isfa && "none"}>
+                    <p className={!isfa ? "none" :"PersianNo"}>
                         {moment({ currentdate }).locale("fa").format("YYYY/M/D")}
                     </p>
                     <p className={isfa && "none"}>
