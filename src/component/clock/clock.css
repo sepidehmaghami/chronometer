@@ -11,3 +11,7 @@ p {
     color: #ffb4a2;
     font-size: 20px;
 }
+
+.ltr {
+    direction: ltr;
+}

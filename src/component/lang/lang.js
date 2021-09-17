@@ -1,4 +1,3 @@
-// import React,{useState} from 'react';
 import { useTranslation } from 'react-i18next';
 import i18n from "../../utilies/i18n";
 import English from "../../Assets/english.svg";
@@ -14,9 +13,6 @@ import './lang.css';
       i18n.changeLanguage(lng);
       // change direrction persian -> rtl / english -> ltr
     };
-  
-
-  
 
     const menu = (
     <Menu>
