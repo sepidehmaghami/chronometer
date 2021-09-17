@@ -1,13 +1,21 @@
-import React from "react";
+import React,{useState} from 'react';
 import './timer.css';
 import TimerContainer from './timercontainer';
 import { useTranslation } from 'react-i18next';
-// import i18n from "../../utilies/i18n";
-
+import i18n from "../../utilies/i18n";
 const Timer = () => {
 
   const {t} = useTranslation();
-
+  const [isfa , setfa] = useState(false);
+  const Detectfa = (lng) => {
+    if (lng === 'fa')
+       setfa(true);
+    else
+       setfa(false);
+  }
+  i18n.on('languageChanged', (lng) => {
+    Detectfa(lng);
+  });
   const {
     timer,
     timeStart,
@@ -23,9 +31,9 @@ const Timer = () => {
         <div className="timeController">
         <div>
             <p className="timer">
-              <span>{milisec}:</span>
-              <span>{second}:</span>
-              <span>{minute}</span>
+              <span className={isfa && "PersianNo"}>{milisec}:</span>
+              <span className={isfa && "PersianNo"}>{second}:</span>
+              <span className={isfa && "PersianNo"}>{minute}</span>
             </p>
           </div>
           <div className="btnController">

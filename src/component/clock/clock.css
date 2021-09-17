@@ -15,3 +15,7 @@ p {
 .ltr {
     direction: ltr;
 }
+
+.none {
+    display: none;
+}

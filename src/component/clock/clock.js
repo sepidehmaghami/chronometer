@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import i18n from "../../utilies/i18n";
 import './clock.css'
+import moment from "jalali-moment";
 
 function Clock(props) {
 
@@ -30,8 +31,13 @@ function Clock(props) {
     return (
         <>
              <div className="container">
-                    <p style={{marginBottom:'1px'}} className="ltr">{currenttime}</p>
-                    <p>{currentdate}</p>
+                    <p style={{marginBottom:'1px'}} className={isfa ? "ltr  PersianNo" : "ltr"}>{currenttime}</p>
+                    <p className={!isfa && "none"}>
+                        {moment({ currentdate }).locale("fa").format("YYYY/M/D")}
+                    </p>
+                    <p className={isfa && "none"}>
+                        {currentdate}
+                    </p>
                </div>
         </>
     )
