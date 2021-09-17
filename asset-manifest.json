@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/chronometer/static/css/main.c92b5c75.chunk.css",
-    "main.js": "/chronometer/static/js/main.a74354fe.chunk.js",
-    "main.js.map": "/chronometer/static/js/main.a74354fe.chunk.js.map",
-    "runtime-main.js": "/chronometer/static/js/runtime-main.09a300eb.js",
-    "runtime-main.js.map": "/chronometer/static/js/runtime-main.09a300eb.js.map",
-    "static/js/2.57541490.chunk.js": "/chronometer/static/js/2.57541490.chunk.js",
-    "static/js/2.57541490.chunk.js.map": "/chronometer/static/js/2.57541490.chunk.js.map",
+    "main.css": "/chronometer/static/css/main.1ea4df66.chunk.css",
+    "main.js": "/chronometer/static/js/main.e1b0d08e.chunk.js",
+    "main.js.map": "/chronometer/static/js/main.e1b0d08e.chunk.js.map",
+    "runtime-main.js": "/chronometer/static/js/runtime-main.27cf09ed.js",
+    "runtime-main.js.map": "/chronometer/static/js/runtime-main.27cf09ed.js.map",
+    "static/css/2.a95be28f.chunk.css": "/chronometer/static/css/2.a95be28f.chunk.css",
+    "static/js/2.6ce5e96f.chunk.js": "/chronometer/static/js/2.6ce5e96f.chunk.js",
+    "static/js/2.6ce5e96f.chunk.js.map": "/chronometer/static/js/2.6ce5e96f.chunk.js.map",
     "index.html": "/chronometer/index.html",
-    "static/css/main.c92b5c75.chunk.css.map": "/chronometer/static/css/main.c92b5c75.chunk.css.map",
-    "static/js/2.57541490.chunk.js.LICENSE.txt": "/chronometer/static/js/2.57541490.chunk.js.LICENSE.txt",
+    "static/css/2.a95be28f.chunk.css.map": "/chronometer/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.1ea4df66.chunk.css.map": "/chronometer/static/css/main.1ea4df66.chunk.css.map",
+    "static/js/2.6ce5e96f.chunk.js.LICENSE.txt": "/chronometer/static/js/2.6ce5e96f.chunk.js.LICENSE.txt",
+    "static/media/chooselanguage.8b79e482.svg": "/chronometer/static/media/chooselanguage.8b79e482.svg",
+    "static/media/english.4b3fcd55.svg": "/chronometer/static/media/english.4b3fcd55.svg",
+    "static/media/persian.1bddc59c.svg": "/chronometer/static/media/persian.1bddc59c.svg",
     "static/media/header.css": "/chronometer/static/media/wave.34ca4138.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.09a300eb.js",
-    "static/js/2.57541490.chunk.js",
-    "static/css/main.c92b5c75.chunk.css",
-    "static/js/main.a74354fe.chunk.js"
+    "static/js/runtime-main.27cf09ed.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.6ce5e96f.chunk.js",
+    "static/css/main.1ea4df66.chunk.css",
+    "static/js/main.e1b0d08e.chunk.js"
   ]
 }
