@@ -27,7 +27,6 @@ const Timer = () => {
   let second = ("0" + Math.floor((timer / 1000) % 60)).slice(-2);
   let minute = ("0" + Math.floor((timer / 10) % 100)).slice(-2);
   return (
-    <>
         <div className="timeController">
         <div>
             <p className="timer">
@@ -48,7 +47,6 @@ const Timer = () => {
               </button>
           </div>
         </div>
-    </>
     )
 };
 
