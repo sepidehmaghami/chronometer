@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import i18n from "./utilies/i18n";
 import Timer from './components/timer/timer';
 import Head from './components/header/header';
+import {Helmet} from "react-helmet";
 import './app.css';
 
 function App() {
@@ -20,6 +21,20 @@ i18n.on('languageChanged', (lng) => {
 
   return (
     <div className={isfa ? "rtl main persianNo" : "ltr main"} >
+       {(isfa) &&
+      <Helmet>
+        <title>
+        کرنومتر
+        </title>
+      </Helmet>
+}
+{(!isfa) &&
+      <Helmet>
+        <title>
+        Stopwatch 
+        </title>
+      </Helmet>
+}
       <Head/>
       <Timer/>
     </div>
