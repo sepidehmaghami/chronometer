@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 58%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -16,6 +16,7 @@
 }
 
 .title {
+    display: flex;
     color: #2a6f97;
     font-size: 40px;
 }

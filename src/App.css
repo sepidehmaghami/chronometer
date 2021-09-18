@@ -10,3 +10,7 @@
 .ltr {
     direction: ltr;
 }
+
+p{
+    margin-bottom: 3px;
+}
