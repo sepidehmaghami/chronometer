@@ -24,7 +24,7 @@ i18n.on('languageChanged', (lng) => {
        {(isfa) &&
       <Helmet>
         <title>
-        کرنومتر
+        زمان سنج  
         </title>
       </Helmet>
 }

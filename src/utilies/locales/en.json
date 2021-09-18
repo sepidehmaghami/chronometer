@@ -8,5 +8,8 @@
         "english": "English",
         "persian": "Persian",
         "language": "Select the desired language"
+    },
+    "timer": {
+        "title": "Stopwatch"
     }
 }

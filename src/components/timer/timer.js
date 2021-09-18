@@ -3,6 +3,7 @@ import './timer.css';
 import TimerContainer from './timercontainer';
 import { useTranslation } from 'react-i18next';
 import i18n from "../../utilies/i18n";
+import Logo from '../../assets/stopwatch.png';
 function Timer () {
 
   const {t} = useTranslation();
@@ -28,12 +29,14 @@ function Timer () {
   let minute = ("0" + Math.floor((timer / 10) % 100)).slice(-2);
   return (
         <div className="timeController">
-        <div>
-            <p className="timer">
+          <p className={isfa ? "persianNo title":"title"}>
+            <img src={Logo} alt="title" />
+            {t('timer.title')}
+          </p>
+        <div className="timer ltr">
               <span className={isfa && "persianNo"}>{milisec}:</span>
               <span className={isfa && "persianNo"}>{second}:</span>
               <span className={isfa && "persianNo"}>{minute}</span>
-            </p>
           </div>
           <div className="btnController">
               <button className="start" onClick={timeStart}>
