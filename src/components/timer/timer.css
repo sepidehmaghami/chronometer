@@ -19,7 +19,13 @@
     display: flex;
     color: #2a6f97;
     font-size: 30px;
-    margin-top: 25px;
+    margin-top: -50px;
+}
+
+@media screen and (max-width :630px) {
+    .title {
+        margin-top: 35px;
+    }
 }
 
 .logo {
