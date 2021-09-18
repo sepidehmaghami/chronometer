@@ -17,26 +17,33 @@ function Clock(props) {
     });
 
     let time =  new Date().toLocaleTimeString();
-    let date = new Date().toLocaleDateString();
+    // let date = new Date().toLocaleDateString();
     const [currenttime , setTime] =useState(time);
-    const [currentdate , setDate] =useState(date);
+    // const [currentdate , setDate] =useState(date);
 
     const update =()=>{
         time =  new Date().toLocaleTimeString();
         setTime(time);
-        date =  new Date().toLocaleDateString();
-        setDate(date);
+        // date =  new Date().toLocaleDateString();
+        // setDate(date);
       }
       setInterval(update , 1000);
     return (
         <>
              <div className="container">
-                    <p style={{marginBottom:'1px'}} className={isfa ? "ltr  persianNo" : "ltr"}>{currenttime}</p>
-                    <p className={!isfa ? "none" :"persianNo"}>
-                        {moment({ currentdate }).locale("fa").format("YYYY/M/D")}
+                    <p className={!isfa ? "none ltr" :"persianNo ltr"}>
+                      {moment().locale("fa").format("h:mm:ss A")}
                     </p>
                     <p className={isfa && "none"}>
-                        {currentdate}
+                      {moment().format("h:mm:ss A")}
+                    </p>
+
+
+                    <p className={!isfa ? "none" :"persianNo"}>
+                        {moment().locale("fa").format("YYYY/M/D")}
+                    </p>
+                    <p className={isfa && "none"}>
+                        {moment().format("YYYY/M/D")}
                     </p>
                </div>
         </>
