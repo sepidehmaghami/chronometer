@@ -30,7 +30,7 @@ function Timer () {
   return (
         <div className="timeController">
           <p className={isfa ? "persianNo title":"title"}>
-            <img src={Logo} alt="title" />
+            <img src={Logo} alt="title" className="logo" />
             {t('timer.title')}
           </p>
         <div className="timer ltr">

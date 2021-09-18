@@ -18,7 +18,13 @@
 .title {
     display: flex;
     color: #2a6f97;
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.logo {
+    width: 53px;
+    height: 53px;
+    margin: 0px 5px;
 }
 
 .timer {
