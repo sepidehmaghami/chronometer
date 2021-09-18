@@ -12,10 +12,6 @@ p {
     font-size: 20px;
 }
 
-.ltr {
-    direction: ltr;
-}
-
 .none {
     display: none;
 }

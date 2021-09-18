@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import i18n from "../../utilies/i18n";
-import English from "../../Assets/english.svg";
-import Persian from "../../Assets/persian.svg";
-import chooselanguage from "../../Assets/chooselanguage.svg";
+import English from "../../assets/english.svg";
+import Persian from "../../assets/persian.svg";
+import chooselanguage from "../../assets/chooselanguage.svg";
 import { Menu, Dropdown, Button} from 'antd';
 import 'antd/dist/antd.css';
 import './lang.css';

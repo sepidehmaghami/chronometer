@@ -3,7 +3,7 @@ import './timer.css';
 import TimerContainer from './timercontainer';
 import { useTranslation } from 'react-i18next';
 import i18n from "../../utilies/i18n";
-const Timer = () => {
+function Timer () {
 
   const {t} = useTranslation();
   const [isfa , setfa] = useState(false);
@@ -30,9 +30,9 @@ const Timer = () => {
         <div className="timeController">
         <div>
             <p className="timer">
-              <span className={isfa && "PersianNo"}>{milisec}:</span>
-              <span className={isfa && "PersianNo"}>{second}:</span>
-              <span className={isfa && "PersianNo"}>{minute}</span>
+              <span className={isfa && "persianNo"}>{milisec}:</span>
+              <span className={isfa && "persianNo"}>{second}:</span>
+              <span className={isfa && "persianNo"}>{minute}</span>
             </p>
           </div>
           <div className="btnController">

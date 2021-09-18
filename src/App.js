@@ -1,9 +1,8 @@
 import React,{useState} from 'react';
 import i18n from "./utilies/i18n";
-
-import './App.css';
-import Timer from './component/timer/timer';
-import Header from './component/header/header';
+import Timer from './components/timer/timer';
+import Head from './components/header/header';
+import './app.css';
 
 function App() {
 
@@ -20,8 +19,8 @@ i18n.on('languageChanged', (lng) => {
 });
 
   return (
-    <div className={isfa ? "rtl main" : "ltr main"} >
-      <Header/>
+    <div className={isfa ? "rtl main persianNo" : "ltr main"} >
+      <Head/>
       <Timer/>
     </div>
   );
