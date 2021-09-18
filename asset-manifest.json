@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/chronometer/static/css/main.d90fea03.chunk.css",
-    "main.js": "/chronometer/static/js/main.a835433c.chunk.js",
-    "main.js.map": "/chronometer/static/js/main.a835433c.chunk.js.map",
+    "main.css": "/chronometer/static/css/main.ec0e0cd0.chunk.css",
+    "main.js": "/chronometer/static/js/main.dc672ae1.chunk.js",
+    "main.js.map": "/chronometer/static/js/main.dc672ae1.chunk.js.map",
     "runtime-main.js": "/chronometer/static/js/runtime-main.27cf09ed.js",
     "runtime-main.js.map": "/chronometer/static/js/runtime-main.27cf09ed.js.map",
     "static/css/2.a95be28f.chunk.css": "/chronometer/static/css/2.a95be28f.chunk.css",
-    "static/js/2.4e7dd167.chunk.js": "/chronometer/static/js/2.4e7dd167.chunk.js",
-    "static/js/2.4e7dd167.chunk.js.map": "/chronometer/static/js/2.4e7dd167.chunk.js.map",
+    "static/js/2.732543ba.chunk.js": "/chronometer/static/js/2.732543ba.chunk.js",
+    "static/js/2.732543ba.chunk.js.map": "/chronometer/static/js/2.732543ba.chunk.js.map",
     "index.html": "/chronometer/index.html",
     "static/css/2.a95be28f.chunk.css.map": "/chronometer/static/css/2.a95be28f.chunk.css.map",
-    "static/css/main.d90fea03.chunk.css.map": "/chronometer/static/css/main.d90fea03.chunk.css.map",
-    "static/js/2.4e7dd167.chunk.js.LICENSE.txt": "/chronometer/static/js/2.4e7dd167.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/chronometer/static/media/IRANSansWeb.bbf8f452.ttf",
+    "static/css/main.ec0e0cd0.chunk.css.map": "/chronometer/static/css/main.ec0e0cd0.chunk.css.map",
+    "static/js/2.732543ba.chunk.js.LICENSE.txt": "/chronometer/static/js/2.732543ba.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/chronometer/static/media/PersianPagerNumber-Regular.333f57f3.ttf",
     "static/media/chooselanguage.8b79e482.svg": "/chronometer/static/media/chooselanguage.8b79e482.svg",
     "static/media/english.4b3fcd55.svg": "/chronometer/static/media/english.4b3fcd55.svg",
     "static/media/persian.1bddc59c.svg": "/chronometer/static/media/persian.1bddc59c.svg",
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.27cf09ed.js",
     "static/css/2.a95be28f.chunk.css",
-    "static/js/2.4e7dd167.chunk.js",
-    "static/css/main.d90fea03.chunk.css",
-    "static/js/main.a835433c.chunk.js"
+    "static/js/2.732543ba.chunk.js",
+    "static/css/main.ec0e0cd0.chunk.css",
+    "static/js/main.dc672ae1.chunk.js"
   ]
 }
