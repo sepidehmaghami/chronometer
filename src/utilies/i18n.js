@@ -1,16 +1,16 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
 
-const EnJSON = require('./locales/en.json');
-const FAJSON = require('./locales/fa.json');
+const EnJSON = require("./locales/en.json");
+const FAJSON = require("./locales/fa.json");
 
 let fallback = null;
 
 const languageDetector = {
-  type: 'languageDetector',
+  type: "languageDetector",
   async: true,
   detect: (cb) => {
-    cb(fallback || 'en');
+    cb(fallback || "en");
   },
   init: () => {},
   cacheUserLanguage: () => {},
@@ -21,7 +21,7 @@ i18n
   .use(initReactI18next)
   .init({
     initImmediate: false,
-    fallbackLng: 'en',
+    fallbackLng: "en",
     debug: true,
     resources: {
       en: {
@@ -32,7 +32,5 @@ i18n
       },
     },
   });
-  
-
 
 export default i18n;
