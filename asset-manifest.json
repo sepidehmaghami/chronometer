@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/chronometer/static/css/main.81fd423e.chunk.css",
-    "main.js": "/chronometer/static/js/main.076329e3.chunk.js",
-    "main.js.map": "/chronometer/static/js/main.076329e3.chunk.js.map",
+    "main.css": "/chronometer/static/css/main.7a83a877.chunk.css",
+    "main.js": "/chronometer/static/js/main.fd7f15bc.chunk.js",
+    "main.js.map": "/chronometer/static/js/main.fd7f15bc.chunk.js.map",
     "runtime-main.js": "/chronometer/static/js/runtime-main.27cf09ed.js",
     "runtime-main.js.map": "/chronometer/static/js/runtime-main.27cf09ed.js.map",
     "static/css/2.a95be28f.chunk.css": "/chronometer/static/css/2.a95be28f.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.d3cbb8da.chunk.js.map": "/chronometer/static/js/2.d3cbb8da.chunk.js.map",
     "index.html": "/chronometer/index.html",
     "static/css/2.a95be28f.chunk.css.map": "/chronometer/static/css/2.a95be28f.chunk.css.map",
-    "static/css/main.81fd423e.chunk.css.map": "/chronometer/static/css/main.81fd423e.chunk.css.map",
+    "static/css/main.7a83a877.chunk.css.map": "/chronometer/static/css/main.7a83a877.chunk.css.map",
     "static/js/2.d3cbb8da.chunk.js.LICENSE.txt": "/chronometer/static/js/2.d3cbb8da.chunk.js.LICENSE.txt",
     "static/media/index.css": "/chronometer/static/media/PersianPageNumber-Bold.556cdc76.ttf",
     "static/media/chooselanguage.8b79e482.svg": "/chronometer/static/media/chooselanguage.8b79e482.svg",
@@ -21,7 +21,7 @@
     "static/js/runtime-main.27cf09ed.js",
     "static/css/2.a95be28f.chunk.css",
     "static/js/2.d3cbb8da.chunk.js",
-    "static/css/main.81fd423e.chunk.css",
-    "static/js/main.076329e3.chunk.js"
+    "static/css/main.7a83a877.chunk.css",
+    "static/js/main.fd7f15bc.chunk.js"
   ]
 }
