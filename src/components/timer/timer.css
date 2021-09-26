@@ -38,7 +38,7 @@
 }
 
 .font-eng {
-    font-family: cursive, sans-serif;
+    font-family: cursive, revert, sans-serif;
 }
 
 .btn {
