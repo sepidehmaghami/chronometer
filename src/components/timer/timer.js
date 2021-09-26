@@ -22,8 +22,8 @@ function Timer() {
   return (
     <div className="timeController">
       <div className="timer ltr">
-        <span className={isfa ? "persianNo" : "font-eng"}> {milisec}: </span>
-        <span className={isfa ? "persianNo" : "font-eng"}> {second}: </span>
+        <span className={isfa ? "persianNo" : "font-eng"}> {milisec} : </span>
+        <span className={isfa ? "persianNo" : "font-eng"}> {second} : </span>
         <span className={isfa ? "persianNo" : "font-eng"}> {minute} </span>
       </div>
       <div className="btnController">

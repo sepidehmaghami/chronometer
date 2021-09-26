@@ -31,6 +31,7 @@
 }
 
 .timer {
+    margin-top: 25PX;
     font-size: 50px;
     color: #daf6ff;
     text-shadow: 0 0 20px #0aafe6, 0 0 20px rgb(10 175 230 / 0%);
@@ -47,7 +48,7 @@
     border-radius: 0.6em;
     cursor: pointer;
     line-height: 1;
-    margin: 15px;
+    margin: 7px 15px;
     padding: 1.2em 1.8em;
     text-align: center;
     text-transform: uppercase;
@@ -59,4 +60,15 @@
 
 .btn:hover {
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+@media screen and (max-width: 505px) {
+    .timer {
+        font-size: 35px;
+    }
+    .btn {
+        margin: 3px 10px;
+        padding: 1em 1.3em;
+        font-weight: 400;
+    }
 }
