@@ -9,11 +9,11 @@
 
 body {
     margin: 0;
-    font-family: "Share Tech Mono";
+    /* font-family: "Share Tech Mono"; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-    font-family: "Share Tech Mono", source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    /* font-family: "Share Tech Mono", source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; */
 }
