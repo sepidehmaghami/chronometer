@@ -3,13 +3,18 @@ import i18n from "./utilies/i18n";
 import Timer from "./components/timer/timer";
 import Head from "./components/header/header";
 import { Helmet } from "react-helmet";
+import Clock from "./components/clock/clock";
+
 import "./app.css";
 
 function App() {
   const [isfa, setfa] = useState(false);
   const Detectfa = (lng) => {
-    if (lng === "fa") setfa(true);
-    else setfa(false);
+    if (lng === "fa") {
+      setfa(true);
+    } else {
+      setfa(false);
+    }
   };
 
   i18n.on("languageChanged", (lng) => {
@@ -29,7 +34,10 @@ function App() {
         </Helmet>
       )}
       <Head />
-      <Timer />
+      <div className="cintainer">
+        <Clock />
+        <Timer />
+      </div>
     </div>
   );
 }

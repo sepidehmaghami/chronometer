@@ -30,9 +30,7 @@ function Clock() {
         <p className={!isfa ? "none ltr" : "persianNo ltr"}>
           {moment().locale("fa").format("h:mm:ss A")}
         </p>
-        <p className={isfa && "none"}>
-        { currenttime }        
-        </p>
+        <p className={isfa && "none"}>{currenttime}</p>
 
         <p className={!isfa ? "none" : "persianNo"}>
           {moment().locale("fa").format("YYYY/M/D")}
