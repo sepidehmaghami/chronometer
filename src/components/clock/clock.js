@@ -26,7 +26,7 @@ function Clock() {
   setInterval(update, 1000);
   return (
     <>
-      <div className="container">
+      <div className="container clock">
         <p className={!isfa ? "none ltr" : "persianNo ltr"}>
           {moment().locale("fa").format("h:mm:ss A")}
         </p>

@@ -5,3 +5,8 @@
     border-radius: 5px;
     margin-top: 15px;
 }
+
+.rtl-drowpdown {
+    direction: rtl;
+    text-align: initial;
+}

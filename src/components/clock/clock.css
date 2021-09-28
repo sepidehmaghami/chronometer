@@ -1,6 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     margin: 0px 60px;
 }
@@ -9,15 +10,19 @@ p {
     font-family: cursive, revert, sans-serif;
     font-weight: bold;
     color: #fff;
+}
+
+.clock {
     font-size: 20px;
+    width: max-content;
 }
 
 .none {
     display: none;
 }
 
-@media screen and (max-width: 505px) {
-    p {
-        font-size: 13px;
+@media screen and (max-width: 578px) {
+    .clock {
+        font-size: 15px;
     }
 }

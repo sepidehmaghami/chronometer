@@ -25,7 +25,7 @@ function Lang() {
   const menu = (
     <Menu>
       <Menu.Item key="1" className={!isfa && "none"}>
-        <li onClick={() => changeLanguage("en")}>
+        <li onClick={() => changeLanguage("en")} className="rtl-drowpdown">
           <img src={English} alt="English" />
           {t("lang.english")}
         </li>
